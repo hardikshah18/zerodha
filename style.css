@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    height: 60px;
+    /* border: 1px solid black; */
+    /* background-color: gray; */
+}
+
+#brand {
+    float: left;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 21px;
+}
+
+#brand>a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu>a {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+#menu {
+    float: right;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+/* SIGNUPNOW */
+
+#signupnow {
+    /* border: 1px solid blue; */
+    height: 580px;
+}
+
+#img1 {
+    width: 30%;
+    height: 50%;
+    /* border: 5px solid black; */
+    margin-top: 6%;
+    margin-left: 35%;
+    margin-bottom: 2%;
+}
+
+#img1>img {
+    width: 100%;
+    height: 100%;
+}
+
+#heading {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(57, 56, 56);
+}
+
+#subheading {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(57, 56, 56);
+}
+
+#signupbtn {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#signupbtn>input {
+    background-color: #387ed1;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+}
+
+#information {
+    border: 1px solid black;
+    height: 575px;
+
+}
+
+#awards {
+    margin-top: 5%;
+    margin-left: 15%;
+    float: left;
+
+    height: 60%;
+    width: 30%;
+    /* border: 1px solid blue; */
+}
+
+#awards>img {
+    height: 100%;
+    width: 100%;
+}
+
+#right {
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-left: 50%;
+    height: 60%;
+    width: 39%;
+}
+
+#right>#heading1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(57, 56, 56);
+}
+
+#right>#subheading1 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(57, 56, 56);
+    margin-bottom: 10px;
+}
+
+#lists {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 40%;
+    font-size: 17px;
+
+}
+
+#lists>ul {
+    /* background-color: blue; */
+    display: flex;
+}
+
+#list-right {
+    /* border: 1px solid black; */
+    padding-left: 150px;
+}
+
+#lists>ul {
+    padding-top: 10px;
+}
